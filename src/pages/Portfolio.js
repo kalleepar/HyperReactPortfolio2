@@ -3,8 +3,9 @@ import React from "react";
 import { MDBBadge } from "mdb-react-ui-kit";
 import "./pages.css";
 
-import maifrigoScreenshot from "../assets/maifrigoScreenshot.png";
-import sunsComeOutScreenshot from "../assets/sunsComeOutScreenshotMedium.png";
+import maifrigoScreenshot from "../assets/maifrigoScreenshot.png"
+import NoteTakerAdvanced from "../assets/NoteTakerAdvanced.png";
+
 import scheduleMyLifeScreenshot from "../assets/scheduleMyLifeScreenshot.png";
 import passwordGeneratorScreenshot from "../assets/passwordGeneratorScreenshot.png";
 import textEdScreenshot from "../assets/textEdScreenshot.png";
@@ -28,7 +29,7 @@ export default function Portfolio() {
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="https://www.youtube.com/watch?v=ojMkw6lZ-PY"
+                href="!#"
                 className="btn btn-primary"
               >
                 Video
@@ -70,29 +71,28 @@ export default function Portfolio() {
         <div className="card w-60 h-40 m-5">
           <img
             className="imgScreenshot"
-            src={sunsComeOutScreenshot}
+            src={NoteTakerAdvanced}
             class="card-img-top"
             alt="Hollywood Sign on The Hill"
           />
           <div className="card-body">
-            <h5 className="card-title">Sun's Come Out App</h5>
+            <h5 className="card-title">Note Taker Advanced</h5>
             <p className="card-text">
-              Built using a third-party server-side Weather API, search for your
-              your 5 day weather conditions of your favourite cities
+              bio!
             </p>
             <div className="d-flex justify-content-evenly">
               {/* links to github and deployed app */}
               <a
-                href="https://laura-kam.github.io/Sun-s-come-out-app/"
-                className="btn btn-primary"
-              >
-                App
-              </a>
-              <a
-                href="https://github.com/Laura-Kam/Sun-s-come-out-app"
+                href="https://app.screencastify.com/v3/watch/ChOLD5wHqxb49AjDtVuu"
                 className="btn btn-primary"
               >
                 Github
+              </a>
+              <a
+                href="https://github.com/kalleepar/NoteTakerAdvanced"
+                className="btn btn-primary"
+              >
+                Video
               </a>
             </div>
             <MDBBadge
@@ -102,7 +102,7 @@ export default function Portfolio() {
               light
               style={{ margin: "23px" }}
             >
-              HTML5
+              Express
             </MDBBadge>
             <MDBBadge
               pill
@@ -111,7 +111,7 @@ export default function Portfolio() {
               light
               style={{ margin: "23px" }}
             >
-              CSS
+              fs
             </MDBBadge>
             <MDBBadge
               pill
@@ -120,7 +120,7 @@ export default function Portfolio() {
               light
               style={{ margin: "23px" }}
             >
-              JavaScript
+              uuid
             </MDBBadge>
           </div>
         </div>
