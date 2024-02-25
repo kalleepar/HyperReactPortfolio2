@@ -57,7 +57,7 @@ export default function Contact() {
         </MDBCardText>
         <MDBCardText>Kalleepar@gmail.com</MDBCardText>
         <span>
-          <a href="https://www.linkedin.com/in/laurakam/">LinkedIn {"   "}</a>
+          <a href="!#">LinkedIn {"   "}</a>
         </span>
         <div className="contactMargin">
           <MDBRow className="g-3 align-items-center">
@@ -105,7 +105,7 @@ export default function Contact() {
         </div>
         <MDBBtn href="#">Submit</MDBBtn>
       </MDBCardBody>
-      <MDBCardFooter>LK Coding Solutions</MDBCardFooter>
+      <MDBCardFooter>Kal Parker 2024</MDBCardFooter>
     </MDBCard>
   );
 }

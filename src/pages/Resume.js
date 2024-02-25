@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
 } from "mdb-react-ui-kit";
 
-// import LauraCV from ".../pages/laurakamcv-developer.pdf";
+
 
 export default function Resume() {
   return (

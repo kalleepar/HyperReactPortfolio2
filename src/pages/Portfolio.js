@@ -5,10 +5,10 @@ import "./pages.css";
 
 import maifrigoScreenshot from "../assets/maifrigoScreenshot.png"
 import NoteTakerAdvanced from "../assets/NoteTakerAdvanced.png";
-
-import scheduleMyLifeScreenshot from "../assets/scheduleMyLifeScreenshot.png";
+import quicksaveSample from "../assets/quicksaveSample.png";
 import passwordGeneratorScreenshot from "../assets/passwordGeneratorScreenshot.png";
-import textEdScreenshot from "../assets/textEdScreenshot.png";
+import logoMaker from "../assets/logoMaker.png";
+
 
 //JSX 6 cards.
 export default function Portfolio() {
@@ -25,20 +25,20 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Gourmet Guidance Chef app</h5>
             <p className="card-text">
-             ofdjjfksdkjfhlksdfhlsdf
+            This app was created as a way for the user to create an account for an app that provides a quick and simple way to search up an ingredient, food category, keywood, or dish name to find a recipe. It also provides the user with a look at some famous menus.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="!#"
+                href="https://gourmetguidance-c19d01e6a962.herokuapp.com/"
                 className="btn btn-primary"
               >
-                Video
+                Website
               </a>
               <a
                 href="https://github.com/kalleepar/Gourmet-Guidance"
                 className="btn btn-primary"
               >
-                Website
+                Github
               </a>
             </div>
             <div className="maifrigoTechnologies">
@@ -78,7 +78,7 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Note Taker Advanced</h5>
             <p className="card-text">
-              bio!
+            Write and save notes using express
             </p>
             <div className="d-flex justify-content-evenly">
               {/* links to github and deployed app */}
@@ -86,13 +86,13 @@ export default function Portfolio() {
                 href="https://app.screencastify.com/v3/watch/ChOLD5wHqxb49AjDtVuu"
                 className="btn btn-primary"
               >
-                Github
+                Video
               </a>
               <a
                 href="https://github.com/kalleepar/NoteTakerAdvanced"
                 className="btn btn-primary"
               >
-                Video
+                Github
               </a>
             </div>
             <MDBBadge
@@ -129,26 +129,24 @@ export default function Portfolio() {
         <div className="card w-60 h-40 m-5">
           <img
             className="imgScreenshot"
-            src={textEdScreenshot}
+            src={logoMaker}
             class="card-img-top"
             alt="Palm Springs Road"
           />
           <div className="card-body">
-            <h5 className="card-title">TextEd Text Editor App</h5>
+            <h5 className="card-title">Logo Maker 10</h5>
             <p className="card-text">
-              A note-taking app, created using webpack, manifest, indexedDB json
-              and a service worker to allow you to write up and save notes
-              offline.
+            Create a logo for your brand with unique color, shape, and text!
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="https://cryptic-dawn-19004.herokuapp.com/"
+                href="https://app.screencastify.com/v3/watch/1j4NRAyaTuEyuDfVKqha"
                 className="btn btn-primary"
               >
-                App
+                Video
               </a>
               <a
-                href="https://github.com/Laura-Kam/TextEd"
+                href="https://github.com/kalleepar/LogoMaker10"
                 className="btn btn-primary"
               >
                 Github
@@ -156,25 +154,13 @@ export default function Portfolio() {
             </div>
             <div className="textEdTechnologies">
               <MDBBadge pill className="mx-2" color="info" light>
-                JavaScript
+              Inquirer
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                Heroku
+                fs
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                Manifest JSON
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                PWA
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                Service Worker
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                IndexedDB
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                Webpack
+                Jest
               </MDBBadge>
             </div>
           </div>
@@ -184,27 +170,24 @@ export default function Portfolio() {
         <div className="card w-60 h-40 m-5">
           <img
             className="imgScreenshot"
-            src="https://images.unsplash.com/photo-1517490232338-06b912a786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            src={quicksaveSample}
             class="card-img-top"
             alt="Palm Springs Road"
           />
           <div className="card-body">
-            <h5 className="card-title">Organise My ShopStock App</h5>
+            <h5 className="card-title">Quick Save</h5>
             <p className="card-text">
-              An app built using Node JS and MySQL.This is the backend for an
-              e-commerce site. The app allows the user to view and format their
-              databases in an accessible manner. These include adding, viewing
-              and deleting, usernames, emails, passwords and viewing products.
+            Modernized game deals site to make searching for gaming deals easy and fun.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="https://watch.screencastify.com/v/OA1SjIsSOTd4Mn7v8I2b"
+                href="https://kalleepar.github.io/GroupProject1/home.html"
                 className="btn btn-primary"
               >
-                Video
+                App
               </a>
               <a
-                href="https://github.com/Laura-Kam/Organise-my-ShopStock"
+                href="https://github.com/kalleepar/GroupProject1"
                 className="btn btn-primary"
               >
                 Github
@@ -212,27 +195,21 @@ export default function Portfolio() {
             </div>
             <div className="organiseMyShopStockTechnologies">
               <MDBBadge pill className="mx-2" color="info" light>
-                Node JS
+                API
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
                 JavaScript
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                MySQL
+                jQuery/jQueryUI
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                API- Client Side
+                Materialize
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
                 Express JS
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                Sequelize
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                Insomnia
-              </MDBBadge>
-            </div>
+             </MDBBadge>         
+          </div>
           </div>
         </div>
       </div>
@@ -240,26 +217,24 @@ export default function Portfolio() {
         <div className="card w-60 h-40 m-5">
           <img
             className="imgScreenshot"
-            src={scheduleMyLifeScreenshot}
+            src="https://ecm.capitalone.com/WCM/tech/images/blog-headers/2022/tech-blog-social-graphics-blog-headers-final-03.jpg"
             class="card-img-top"
             alt="Los Angeles Skyscrapers"
           />
           <div className="card-body">
-            <h5 className="card-title">Schedule My Life App</h5>
+            <h5 className="card-title">Tech Blog 26</h5>
             <p className="card-text">
-              An app built with JavaScript, using a client-side API,this is a
-              colour-coded schedule app, allowing you to save events in a
-              calender.
+            This program was developed to log comments with other users.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="https://laura-kam.github.io/Schedule-my-life/"
+                href="https://techblog24-0d7e81aabf93.herokuapp.com/"
                 className="btn btn-primary"
               >
                 App
               </a>
               <a
-                href="https://github.com/Laura-Kam/Schedule-my-life"
+                href="https://github.com/kalleepar/TechBlog26"
                 className="btn btn-primary"
               >
                 Github
@@ -267,19 +242,16 @@ export default function Portfolio() {
             </div>
             <div className="scheduleMyLifeTechnologies">
               <MDBBadge pill className="mx-2" color="info" light>
-                HTML5
+               mysql2
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                CSS
+                dotenv
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                JavaScript
+                Sequelize
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                JQuery
-              </MDBBadge>
-              <MDBBadge pill className="mx-2" color="info" light>
-                Moment JS
+                Express
               </MDBBadge>
             </div>
           </div>
@@ -301,13 +273,13 @@ export default function Portfolio() {
             </p>
             <div className="d-flex justify-content-evenly">
               <a
-                href="https://laura-kam.github.io/GenerateMyPassword/"
+                href="https://kalleepar.github.io/password-generator/"
                 className="btn btn-primary"
               >
                 App
               </a>
               <a
-                href="https://github.com/Laura-Kam/GenerateMyPassword"
+                href="https://github.com/kalleepar/password-generator"
                 className="btn btn-primary"
               >
                 Github
