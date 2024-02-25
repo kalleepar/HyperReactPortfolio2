@@ -43,7 +43,6 @@ export default function Resume() {
               CSS <br />
               Javascript <br />
               JQuery <br />
-              Responsive Design <br />
               React <br />
               Boostrap
             </div>
