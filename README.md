@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This web application is a text editor that will run in a browser and/or a local network. Makes saving notes much easier!
+This web application acts as a portfolio where you can learn about me and my various projects.
 
 # Table of Contents 
 * [Installation](##-Installation)
@@ -34,4 +34,4 @@ MIT
 
 ## Contributing 
 Kalleepar at:
-https://github.com/kalleepar/PWA-TextEditorV2
+https://github.com/kalleepar/HyperReactPortfolio2
