@@ -70,10 +70,10 @@ export default function AboutMe() {
           <MDBCardBody style={{ backgroundImage: `url("https://godotshaders.com/wp-content/uploads/2021/01/cover-2.jpg")`, }}>
           <MDBCardTitle style={{ color: 'black' }}>About Me</MDBCardTitle>
             <MDBCardText className="myBackgroundText">
-              bio
+              My name is Kal Parker and this is my portfolio!
               <br />
               <br />
-             bio extend
+            Browse at your own leisure!
             </MDBCardText>
           </MDBCardBody>
           <MDBCardFooter className="text-muted"></MDBCardFooter>
