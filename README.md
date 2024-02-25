@@ -13,7 +13,6 @@ This web application is a text editor that will run in a browser and/or a local 
 * [Tests](##-Tests)
 * [Questions](##-Contact-Information)
 
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide3.jpg)
   
 ## Installation
 To install the program:
@@ -25,14 +24,10 @@ To install the program:
 * Double click icon to open application locally on machine.
 
 ## Usage
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide1.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide2.png)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide4.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide5.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide6.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide7.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide8.jpg)
-![Alt text](https://github.com/kalleepar/PWA-TextEditorV2/blob/main/Assets/PWAguide9.jpg)
+![Alt text](https://github.com/kalleepar/HyperReactPortfolio2/blob/main/src/assets/portfolioSample1.jpg)
+![Alt text](https://github.com/kalleepar/HyperReactPortfolio2/blob/main/src/assets/portfolioSample2.jpg)
+![Alt text](https://github.com/kalleepar/HyperReactPortfolio2/blob/main/src/assets/portfolioSample3.jpg)
+![Alt text](https://github.com/kalleepar/HyperReactPortfolio2/blob/main/src/assets/portfolioSample4.jpg)
 
 ## License 
 MIT
